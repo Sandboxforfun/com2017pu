@@ -8,6 +8,10 @@ int main()
       fs::path path2 = "/Users/luclambour/Desktop/Workspace";
 std::string luctest = fs::relative(path1,path2).string();
 std::string luctest2 = fs::absolute(path1,path2).string();
+std::cout<<luctest<<std::endl;
+std::cout<<luctest2<<std::endl;
+
+
 
   
     return 0; 
